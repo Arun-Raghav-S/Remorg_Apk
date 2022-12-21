@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "996106345843",
+    "project_id": "authentication-a2bc2",
+    "storage_bucket": "authentication-a2bc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996106345843:android:1506c0c6777535506df906",
+        "android_client_info": {
+          "package_name": "com.example.remorgnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996106345843-r69m76dlbnjosmn1vd9sibcfqnqqh36n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZUc7-QyceclNhwMRJQ2-MN904TKiEvIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996106345843-r69m76dlbnjosmn1vd9sibcfqnqqh36n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

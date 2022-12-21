@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bk"
+    tools:context=".organiserforcs_ai_ee">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="202dp"
+        android:layout_height="85dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Join your class on time"
+
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button15"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_width="280dp"
+                android:layout_height="85dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/custom_button2"
+                android:textStyle="bold"
+                android:elevation="30dp"
+                android:text="Chemistry                              11:00 to 12:00"
+                android:textSize="20dp"
+
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.267" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button11"
+                android:layout_width="280dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:text="MATHS                                     8:00 TO 9:00"
+                android:textSize="20dp"
+                android:elevation="30dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/custom_button2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.431" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button12"
+                android:layout_width="280dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:text="ENGINEERING MECHANICS
+            11:00 TO 12:00"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/custom_button2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.586" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button13"
+                android:layout_width="280dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:text="COMPUTER SCIENCE                    8:00 TO 9:00"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:elevation="30dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/custom_button2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.744" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button16"
+                android:layout_width="280dp"
+                android:layout_height="85dp"
+                android:text="ENGINEERING DESIGN                  3:00 TO 5:00"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:elevation="30dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/custom_button2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.899" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button21"
+                android:layout_width="280dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button2"
+                android:elevation="30dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="SOCIAL CONNECT                 5:00 TO 6:00"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.661"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

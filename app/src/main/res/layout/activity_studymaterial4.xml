@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bk"
+    tools:context=".studymaterial">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button65"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="CS"
+        android:textSize="30dp"
+        android:elevation="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/custom_button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button58"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="MT"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/custom_button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button59"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="CH"
+        android:textSize="30dp"
+        android:elevation="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/custom_button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button60"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="CI"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/custom_button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button61"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="ME"
+        android:textSize="30dp"
+        android:elevation="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/custom_button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button62"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="EE"
+        android:textSize="30dp"
+        android:elevation="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/custom_button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button63"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="BB"
+        android:textSize="30dp"
+        android:elevation="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/custom_button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button64"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="AI"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/custom_button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="222dp"
+        android:layout_height="75dp"
+        android:text="Choose Your Branch"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#000"
+        android:textColorHighlight="#AFA121"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

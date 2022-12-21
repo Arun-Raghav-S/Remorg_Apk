@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Remorg</string>
+    <string name="welcome_iit_junta">Welcome IIT JUNTA!</string>
+    <string name="reminder">REMINDER</string>
+    <string name="organiser">ORGANISER</string>
+    <string name="study_guide">STUDY GUIDE</string>
+    <string name="mails">MAILS</string>
+    <string name="this_is_a_tailor_made_app_for_students_we_hope_you_find_here_all_that_you_want">This is a tailor made app for students. We hope you find here all that you want :))</string>
+    <string name="todo">TODO</string>
+    <string name="hyperlink">Maths <a href="https://drive.google.com/drive/folders/1ShraWAA5J3T-ZRTZpCSWtxx0NC8tiuqz?usp=sharing">Maths1010</a></string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <string name="signup">Don\'t have an account? Sign Up</string>
+</resources>

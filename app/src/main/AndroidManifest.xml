@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.remorgnew">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RemorgNew">
+        <activity
+            android:name=".studymaterial4"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterial3"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterial2"
+            android:exported="false" />
+        <activity
+            android:name=".studymaterial1"
+            android:exported="false" />
+        <activity android:name=".splashActivity">
+        </activity>
+        <activity android:name=".ReminderActivity">
+        </activity>
+        <activity android:name=".MainPage">
+        </activity>
+        <activity android:name=".LOGIN"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dashboard"
+            android:exported="true">
+        </activity>
+        <activity android:name=".Register">
+
+        </activity>
+        <activity android:name=".studymaterial">
+
+
+        </activity>
+        <activity android:name=".organiser_restbranches"></activity>
+        <activity android:name=".organisermain1"></activity>
+        <activity android:name=".organiserforcs_ai_ee"></activity>
+        <activity android:name=".OrganiserinsideActivity"></activity>
+    </application>
+    <queries>
+        <package android:name="com.google.android.gm" />
+    </queries>
+
+</manifest>
