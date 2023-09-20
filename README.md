@@ -3,7 +3,7 @@
 Remorg_Apk is a specially designed application tailored to meet the needs of IITJ students, enhancing the online learning experience. This app offers a range of features to simplify and streamline your virtual classes.
 <img src="images/homePage.jpg" alt="Alt Text" width="350px" height="500px" />
 
-### 📹[demoVideo](https://drive.google.com/file/d/1yz5U1xI9nkMPjSdMjaUc3kJJ4RwdfnX6/view?usp=sharing)
+### 📹[demoVideo](https://drive.google.com/file/d/1nmWp76SkXBFwKG0nLkDbhYk91mBp3J0V/view?usp=sharing)
 
 ## 🚀 Features
 
